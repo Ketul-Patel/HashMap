@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7CB5A2981AEF21EE00B32EFC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5A2971AEF21EE00B32EFC /* main.swift */; };
+		7CB5A29F1AEF220100B32EFC /* HashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5A29E1AEF220100B32EFC /* HashMap.swift */; };
+		7CB5A2A31AEF222900B32EFC /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5A2A21AEF222900B32EFC /* SinglyLinkedList.swift */; };
+		7CB5A2A51AEF223500B32EFC /* SinglyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5A2A41AEF223500B32EFC /* SinglyNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		7CB5A2941AEF21EE00B32EFC /* HashMap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashMap; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB5A2971AEF21EE00B32EFC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7CB5A29E1AEF220100B32EFC /* HashMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashMap.swift; sourceTree = "<group>"; };
+		7CB5A2A21AEF222900B32EFC /* SinglyLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglyLinkedList.swift; sourceTree = "<group>"; };
+		7CB5A2A41AEF223500B32EFC /* SinglyNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglyNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				7CB5A2971AEF21EE00B32EFC /* main.swift */,
+				7CB5A29E1AEF220100B32EFC /* HashMap.swift */,
+				7CB5A2A21AEF222900B32EFC /* SinglyLinkedList.swift */,
+				7CB5A2A41AEF223500B32EFC /* SinglyNode.swift */,
 			);
 			path = HashMap;
 			sourceTree = "<group>";
@@ -118,6 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB5A2A51AEF223500B32EFC /* SinglyNode.swift in Sources */,
+				7CB5A29F1AEF220100B32EFC /* HashMap.swift in Sources */,
+				7CB5A2A31AEF222900B32EFC /* SinglyLinkedList.swift in Sources */,
 				7CB5A2981AEF21EE00B32EFC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

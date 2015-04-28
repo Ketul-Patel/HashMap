@@ -7,6 +7,14 @@
 //
 
 import Foundation
-
-println("Hello, World!")
+var hm = HashMap<String>()
+hm.setKey("Name", withValue: "Jay")
+hm.setKey("Age", withValue: "22")
+hm.setKey("Occupation", withValue: "Web Developer")
+hm.setKey("Company", withValue: "CodingDojo")
+hm.setKey("Dad", withValue: "Jay")
+hm.setKey("Mom", withValue: "Harita")
+hm.setKey("Brother", withValue: "Jigish")
+hm.setKey("Girlfriend", withValue: "Shayna")
+println(hm.getValueAtKey("Name")!)
 
